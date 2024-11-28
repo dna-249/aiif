@@ -489,19 +489,6 @@ display: grid;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (width <= 350px) {
   .welcome1 h3{
     font-size:30px
