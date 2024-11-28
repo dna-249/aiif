@@ -17,7 +17,7 @@ const Welcome = () => {
         <div className="welcome"> <img src='tasfiyyah4.jpg' width={50} height={50}/></div>
         <div className="welcome2"> <FaBars /> </div>
         </div>
-        <div className="welcome1"> <h3> Attasfiyah Islamic <br /> international Foundation <br /> Abuja </h3>
+        <div className="welcome1"> <h3> Attasfiyah Islamic <br /> International Foundation <br /> Abuja </h3>
           <div style={{width:'200px',margin:'auto'}}><ul> 
          <li> <Link to='/registration'> Registration </Link></li> <br />
          <li > <Link to='/programs'>  Portal </Link></li> <br />
