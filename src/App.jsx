@@ -7,7 +7,7 @@ import About from './components/about';
 import Content from './components/content';
 import Program from './components/program';
 import Team from './components/team';
-import Registration from './components/Registration';
+import Registry from './components/registry';
 import Admin from './admin';
 import DataContext, { DataProvider } from './context/context'
 import Programs from './admin/programs';
@@ -30,7 +30,7 @@ const App = () => {
     <Routes>
       <Route path='/' element={<Welcome />} />
       <Route path='/welcome' element={<Welcome />} />
-      <Route path='/registration' element={<Registration /> } />
+      <Route path='/registry' element={<Registry /> } />
       <Route path='/about' element={<About/>}/>
       <Route path='/content' element={<Content/>}/> 
       <Route path='/admin' element={<Admin/>}/>

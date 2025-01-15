@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Header from './header'
 import useRegistration from './useRegistration'
-const Registration = () => {
+const Registry = () => {
     const [first,setFirst,handleFirst]=useRegistration ('')
     const [surname,setSurname,handleSurname]=useRegistration('')
     const [birth,setBirth,handleBirth] = useRegistration ('')
@@ -114,4 +114,4 @@ const Registration = () => {
   )
 }
 
-export default Registration
+export default Registry
