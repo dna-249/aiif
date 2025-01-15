@@ -2,20 +2,20 @@ import React, { useEffect, useState } from 'react'
 import Header from './header'
 import useRegistration from './useRegistration'
 const Registration = () => {
-    const [first,setFirst,handleFirst]=useRegistration('')
+    const [first,setFirst,handleFirst]=useRegistration ('')
     const [surname,setSurname,handleSurname]=useRegistration('')
-    const [birth,setBirth,handleBirth] = useRegistration('')
+    const [birth,setBirth,handleBirth] = useRegistration ('')
     const [sex,setSex,handleSex]= useRegistration('')
     const [occupation,setOccupation,handleOccupation] = useRegistration('')
-    const [phone,setPhone,handlePhone]=useRegistration('')
+    const [phone,setPhone,handlePhone]=useRegistration ('')
     const [parent,setParent,handleParent]= useRegistration('')
     const [address,setAddress,handleAddress]= useRegistration('')
     const [origin,setOrigin,handleOrigin]= useRegistration('')
     const [nationality,setNationality,handleNationality]= useRegistration('')
     const [program,setProgram,handleProgram] = useRegistration('')
     
-    const [form,setForm] =useState([''])
-    const [form2,setForm2] =useState('')
+    const [form,setForm] = useState([''])
+    const [form2,setForm2] = useState('')
 
 
     const handleForm = () => {
